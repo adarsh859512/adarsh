@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
+<body>
+<!---header -->
+<div class="site-header">
+<div class="pagecenter">
+    <div class="main-heaer">
+    <div class="header-logo">
+        <a href="https://vomeladev.wpengine.com">
+                <img class="logo_header" src="https://vomeladev.wpengine.com/wp-content/themes/bedstone/images/logo-on-dark.svg" alt="Vomela">
+            </a>
+    </div>
+    <div class="site-header__group">
+        <div class="header-utility hidden-print"">
+            <ul>
+                <li class="hs_menu"><a href="#" target="_blank">Upload Files</a></li>
+                <li class="hs_menu"><a href="#" class="left" target="_blank">Careers</a></li>
+            </ul> 
+        </div>
+        <div class="header-searchform hidden-print">
+            <div class="searchform__group">
+                <input type="text" placeholder="Search" class="search">
+                    <button class="searchform__btn">
+                    <a href="search.html"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    </button>
+            </div>
+        </div>
+        <div class="toggle-nav-main">
+        </div>
+    </div>
+    
+</div>
+<!-- Bottom nav -->
+<div class="nav-main hidden-print">
+    <ul class="menu-primary-menu">
+        <li class="menu"><a href="index.html">Home</a></li>
+        <li class="menu"><a href="signin.html">Sign In</a></li>
+        <!-- <li class="menu"><a href="#">Who We Serve</a></li> -->
+        <li class="menu"><a href="404.html" class="submenu">Who We Are</a>
+        
+            <ul class="nav-submenu">
+                <li class="hs-item"><a href="404.html">About Us</a></li>
+                <li class="hs-item"><a href="404.html">Our Team</a></li>
+                <li class="hs-item"><a href="404.html">Corporate Social Responsibility</a></li>
+                <li class="hs-item"><a href="404.html">Driving Goodness</a></li>
+            </ul>
+
+        </li>
+        <li class="menu"><a href="#services">Services</a></li>
+        <li class="menu"><a href="blog.html" class="submenu">Resources</a>
+        
+            <ul class="nav-submenu">
+                <li class="hs-item"><a href="blog.html">Blog</a></li>
+                <li class="hs-item"><a href="blog.html">Tools & Guides</a></li>
+                <li class="hs-item"><a href="blog.html">Videos</a></li>
+            </ul>
+        
+        </li>
+        <li class="menu"><a href="signin.html" target="blank">Contact</a></li>
+
+    </ul>
+</div>
+
+</div>
+</div>
+
+<!-- TRIGGER BTN FOR MOBILE -->
+
+<div class="trigger_btn" onclick="myFunction()">
+  <div class="pagecenter">
+    <div class="toggle">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+  </div>
+</div>
+<!-- MENU MENU SLIDER -->
+
+ <!-- slider -->
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img class="hs-img" src="https://vomeladev.wpengine.com/wp-content/uploads/2020/06/hero.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+        <img class="hs-img" src="https://vomeladev.wpengine.com/wp-content/uploads/2020/06/super-bowl-lii-halo-Events-Exhibits.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+        <img class="hs-img" src="https://vomeladev.wpengine.com/wp-content/uploads/2020/06/ItSugar-Retail-wall-graphics.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <div class="slider-tex">
+        <div class="pagecenter">
+        <h1>Transforming creative ideas into<br>
+            high impact visual <span style="--i:1;">c</span>
+            <span style="--i:2;">o</span>
+            <span style="--i:3;">m</span>
+            <span style="--i:4;">m</span>
+            <span style="--i:5;">u</span>
+            <span style="--i:6;">n</span>
+            <span style="--i:7;">i</span>
+            <span style="--i:8;">c</span>
+            <span style="--i:9;">a</span>
+            <span style="--i:10;">t</span>
+            <span style="--i:10;">i</span>
+            <span style="--i:10;">o</span>
+            <span style="--i:10;">n</span>
+            <span style="--i:10;">s</span>
+        </h1>
+        
+        <div class="btn-main">
+            <a href="404.html" class="hero_btn btn">WHAT WE DO</a>
+            <a href="404.html"class="hero_btn btn sec-btn">OUR WORK</a>
+        </div>
+    </div>
+    </div>
+    </div>  
+ <!-- slider End -->
+<div class="aligncenter">
+   <div class="pagecenter">
+    <div class="text">
+        <p>We believe brand stories are every-changing and the best 
+            storytelling happens when all the senses are engaged.</p>
+            <p><strong>What’s Your Story?</strong></p>
+            <a href="#" class="block-cta__link"> WHAT WE DO <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.793 8 8.146 5.354a.5.5 0 0 1 0-.708z"/>
+                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5H11a.5.5 0 0 1 0 1H4.5A.5.5 0 0 1 4 8z"/>
+              </svg></a>
+    </div>
+  </div>
+</div>
+
+<!-- img section -->
+<div class="main-card" id="card-about">
+    <div class="pagecenter">
+       <div class="card_item">
+        <div class="card services card1" style="width: 18rem;">
+            <a href="#" class="img-link"> 
+            <img src="https://vomeladev.wpengine.com/wp-content/themes/bedstone/images/serv-coll.jpg" class="card-img-top" alt="...">
+            <div class="services__heading">
+                Collateral &amp; Commercial&nbsp;<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M8.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.793 8 8.146 5.354a.5.5 0 0 1 0-.708z"/>
+                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5H11a.5.5 0 0 1 0 1H4.5A.5.5 0 0 1 4 8z"/>
+                  </svg>
+            </div>
+        </a>
+            <div class="card-body">
+              <p class="card-text">Your direct mail and marketing campaign deserve the highest service and quality. </p>
+            </div>
+          </div>
+
+          <div class="card services card2" style="width: 18rem;">
+            <a href="#" class="img-link">
+            <img src="https://vomeladev.wpengine.com/wp-content/themes/bedstone/images/serv-pop.jpg" class="card-img-top" alt="...">
+            <div class="services__heading">
+                POP & Promotion <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M8.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.793 8 8.146 5.354a.5.5 0 0 1 0-.708z"/>
+                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5H11a.5.5 0 0 1 0 1H4.5A.5.5 0 0 1 4 8z"/>
+                  </svg></a>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Our end-to-end creative and print services put the POP in point-of-sale. </p>
+            </div>
+          </div>
+
+          <div class="card services card3" style="width: 18rem;">
+            <a href="404.html" class="img-link">
+            <img src="https://vomeladev.wpengine.com/wp-content/themes/bedstone/images/serv-decor.jpg" class="card-img-top" alt="...">
+            <div class="services__heading">
+                Store Décor <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M8.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.793 8 8.146 5.354a.5.5 0 0 1 0-.708z"/>
+                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5H11a.5.5 0 0 1 0 1H4.5A.5.5 0 0 1 4 8z"/>
+                  </svg></a>
+            </div>
+            <div class="card-body">
+              <p class="card-text"> Our creative experience covers everything from 3D and window graphics to interior design.</p>
+            </div>
+          </div>
+
+          <div class="card services card4" style="width: 18rem;">
+            <a href="404.html" class="img-link">
+            <img src="https://vomeladev.wpengine.com/wp-content/themes/bedstone/images/serv-events.jpg" class="card-img-top" alt="...">
+            <div class="services__heading">
+                Events & Exhibits <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M8.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.793 8 8.146 5.354a.5.5 0 0 1 0-.708z"/>
+                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5H11a.5.5 0 0 1 0 1H4.5A.5.5 0 0 1 4 8z"/>
+                  </svg></a>
+            </div>
+            <div class="card-body">
+              <p class="card-text"> From small events to large extravaganzas, we can design, print, deliver and install.</p>
+            </div>
+          </div>
+
+          <div class="card services card5" style="width: 18rem;">
+            <a href="#" class="img-link">
+            <img src="https://vomeladev.wpengine.com/wp-content/themes/bedstone/images/serv-transport.jpg" class="card-img-top" alt="...">
+            
+            <div class="services__heading">
+                Transportation <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M8.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.793 8 8.146 5.354a.5.5 0 0 1 0-.708z"/>
+                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5H11a.5.5 0 0 1 0 1H4.5A.5.5 0 0 1 4 8z"/>
+                  </svg></a>
+            </div><div class="card-body">
+              <p class="card-text">Keep your brand wrapped and moving forward by extending to your entire fleet. </p>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+<!-- who we are -->
+
+<div class="wp-block-group watermark" id="whowe_are">
+    <div class="pagecenter">
+        <div class="content">
+            <h1 class="has-center"><div class="word"></div></h1>
+                <p>The Vomela Companies bring brands to life through impactful visuals. We have developed
+             end-to-end expertise from conception through design, production, and 
+             installation. Whether the need is in-store, at events, on vehicles,
+              or via the mail, rely on Vomela to visualize your brand story.</p>
+              <a href="#" class="block-cta__link arrow"> Learn More about Vomela <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.793 8 8.146 5.354a.5.5 0 0 1 0-.708z"></path>
+                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5H11a.5.5 0 0 1 0 1H4.5A.5.5 0 0 1 4 8z"></path>
+              </svg></a>
+        </div>
+    </div>
+</div>
+
+<!-- logo img -->
+<div class="customers alignfull">
+    <div class="customers_main">
+        <img class="customers__logo" src="https://vomeladev.wpengine.com/wp-content/themes/bedstone/images/customer-3m.png">
+        <img class="customers__logo" src="https://vomeladev.wpengine.com/wp-content/themes/bedstone/images/customer-ameriprise.png" alt="Ameriprise Financial"> 
+        <img class="customers__logo" src="https://vomeladev.wpengine.com/wp-content/themes/bedstone/images/customer-container.png" alt="The Container Store">
+        <img class="customers__logo" src="https://vomeladev.wpengine.com/wp-content/themes/bedstone/images/customer-barnes.png" alt="Barnes Noble College"> 
+        <img class="customers__logo" src="https://vomeladev.wpengine.com/wp-content/themes/bedstone/images/customer-dominos.png" alt="Domino's">
+        <img class="customers__logo" src="https://vomeladev.wpengine.com/wp-content/themes/bedstone/images/customer-itsugar.png" alt="It'Sugar">
+        <img class="customers__logo" src="https://vomeladev.wpengine.com/wp-content/themes/bedstone/images/customer-vitamin.png" alt="The Vitamin Shoppe">
+        <img class="customers__logo" src="https://vomeladev.wpengine.com/wp-content/themes/bedstone/images/customer-target.png" alt="Target">
+    </div>
+    <p>Become a satisfied customer!</p>
+</div>
+
+<!-- banner content -->
+<div class="wp-block-cover alignfull">
+    <div class="pagecenter">
+        <h1>Creative printed solutions and exceptional service – end to end</h1>
+        <a href="#" class="wp-block-button__link">Our Companies</a>
+    </div>
+</div>
+
+<!-- SITE FOOTER  -->
+
+<footer class="site-footer" id="services">
+    <div class="pagecenter2">
+       <div class="footer_main">
+        <div class="footer-cta_item">
+            <div class="footer-cta__bg hidden-print">
+                <img src="https://vomeladev.wpengine.com/wp-content/uploads/2020/06/super-bowl-lii-halo-Events-Exhibits-1.jpg">
+                <div class="footer-cta__overlay"></div>
+            </div>
+            <div class="footer-cta__content">
+                <div class="h2 footer-cta__heading">
+                    <a class="link-passive" href="https://vomeladev.wpengine.com/contact/">Get Superior Quality</a>                </div>
+                <div class="h4 footer-cta__subheading">Learn more about our expertise, services, premier materials, and applications.</div><a class="btn btn--secondary hero_btn btn" href="https://vomeladev.wpengine.com/contact/">Contact Us</a>   
+             </div>
+        </div>
+
+        <div class="footer-cta__item--count-2">
+            <div class="footer-cta__bg hidden-print">
+                <img src="https://vomeladev.wpengine.com/wp-content/uploads/2020/06/project-management-services-featured-image-vomela.jpg">
+                <div class="footer-cta__overlay2"></div>
+            </div>
+            <div class="footer-cta__content">
+                <div class="h2 footer-cta__heading">
+                    <a class="link-passive" href="https://vomeladev.wpengine.com/careers/">Join our Exceptional Team</a>                </div>
+                <div class="h4 footer-cta__subheading">Opportunities in sales, creative design, engineering, production - and more!</div><a class="btn btn--secondary hero_btn btn" href="https://vomeladev.wpengine.com/careers/">Careers</a> 
+             </div>
+        </div>
+    </div> 
+    </div>
+
+    <div class="footer-primary">
+        <div class="pagecenter">
+          <div class="footer-columns">
+            <div class="footer-address">
+              <a href="#"> <img src="https://vomeladev.wpengine.com/wp-content/themes/bedstone/images/logo-on-dark.svg"></a>
+              <p><strong>The Vomela Companies</strong></p>
+              <p><a href="https://goo.gl/maps/wsLu8ev2EV9m14XQ7" target="_blank" rel="noopener">845 Minnehaha Avenue East<br>
+                Saint Paul, MN 55106</a></p>
+                <p><a href="tel:1-651-228-2200">(651) 228-2200</a></p>
+                <p class="hidden-print"><a class="footer-address__btn btn btn--secondary" href="https://vomeladev.wpengine.com/contact/">Contact</a></p>
+            </div>
+            <div class="nav-footer hidden">
+              <ul>
+                <li><a href="#">What We Do</a></li>
+                <li><a href="#">Our Work</a></li>
+                <li><a href="#">Who We Are</a></li>
+                <li><a href="#">Our Companies</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="https://online.vomela.com/">Online Login</a></li>
+
+              </ul>
+            </div>
+            <div class="footer-cert">
+              <p>Expertly Visualize Your Story</p>
+              <p>
+                <a href="https://vomeladev.wpengine.com/wp-content/themes/bedstone/images/Vomela-ISO-9001-2015-2018.pdf" target="_blank"><img style="width:95px; height: 95px;" alt="ISO 9001:2015 Certified - Quality Management System - Saint Paul Operations" src="https://vomeladev.wpengine.com/wp-content/themes/bedstone/images/cert-iso-9001-2015.jpg"></a>
+                <a href="https://vomeladev.wpengine.com/wp-content/themes/bedstone/images/Vomela-Idealliance-G7-Master-Facility-Grayscale-2020.pdf" target="_blank"><img style="width:95px; height: 95px;" alt="G7® Master - Idealliance® Qualified Facility" src="https://vomeladev.wpengine.com/wp-content/themes/bedstone/images/cert-g7-master-300x300.png"></a>
+            </p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+<!--    {# seconady fooooter #} -->
+
+<div class="footer-secondary">
+  <div class="pagecenter">
+      <div class="footer-secondary__columns">
+        <div class="footer-secondary__group">
+          <div class="copyright">
+              © 2020 The Vomela Companies
+          </div>
+          <nav class="nav-legal hidden-print">
+            <ul class="nav-legal__list">
+              <li><a href="https://vomeladev.wpengine.com/policies-and-practices/">Policies &amp; Practices</a></li>
+              <li><a href="https://vomeladev.wpengine.com/accessibility-policy/">Accessibility Policy</a></li>
+              <li><a target="_blank" href="https://www.windmillstrategy.com">Site Credits</a></li></ul></nav>
+      </div>
+      <div class="footer-secondary__group pull-right">
+        <ul>
+          <li><a href="https://www.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+          <li><a href="https://twitter.com/"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.linkedin.com/login"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.youtube.com/"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
+        <div class="back-to-top">
+          <a href="#top">Back to Top <span>↑</span></a>
+      </div>
+      </div>
+      </div>
+  </div>
+</div>
+</footer>
+
+ <!------------- FIXED SOCIAL MEDIA ICON -000000---------->
+<div class="fixed-icon">
+  <a href="https://www.facebook.com/">Click here to visit<i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+  <a href="https://twitter.com/" class="twitter">Click here to visit<i class="fa fa-twitter-square" aria-hidden="true"></i> </a>
+  <a href="https://www.linkedin.com/login" class="linkdin">Click here to visit <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+  <a href="https://www.youtube.com/" class="youtube">Click here to visit <i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+  <a href="https://wa.me/8595129622" class="whtasapp">Click here to visit <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+
+</div>
+
+
+<!-- MOBILE MENU  -->
+
+<div class="sidebar_main">
+    <div class="cross_icon"  onclick="myFunction()">
+    <i class="fa fa-times" aria-hidden="true"></i>
+  </div>
+
+  <ul class="menu-sidebar">
+    <li class="menu_sidebar"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+    <li class="menu_sidebar"><a href="#card-about"><i class="fa fa-user" aria-hidden="true"></i> About Us</a></li>
+    <li class="menu_sidebar"><a href="#whowe_are" class="submenu_sidebar submenu2"><i class="fa fa-ban" aria-hidden="true"></i> Who We Are</a>
+    
+        <ul class="nav-submenu_sidebar">
+            <li class="sidebar_hs-item"><a href="#card-about">About Us</a></li>
+            <li class="sidebar_hs-item"><a href="#whowe_are">Our Team</a></li>
+            <li class="sidebar_hs-item"><a href="#whowe_are">Corporate Social Responsibility</a></li>
+            <li class="sidebar_hs-item"><a href="#whowe_are">Driving Goodness</a></li>
+        </ul>
+
+    </li>
+    <li class="menu_sidebar"><a href="#services"><i class="fa fa-outdent" aria-hidden="true"></i> Our Work</a></li>
+    <li class="menu_sidebar"><a href="#services"><i class="fa fa-outdent" aria-hidden="true"></i>More</a></li>
+    <li class="menu_sidebar"><a href="#services" class="submenu2"><i class="fa fa-info-circle" aria-hidden="true"></i> Our Team</a></li>
+
+          
+        <ul class="nav-submenu_sidebar">
+          <li class="sidebar_hs-item"><a href="#card-about">About Us</a></li>
+          <li class="sidebar_hs-item"><a href="#whowe_are">Our Team</a></li>
+          <li class="sidebar_hs-item"><a href="#whowe_are">Corporate Social Responsibility</a></li>
+          <li class="sidebar_hs-item"><a href="#whowe_are">Driving Goodness</a></li>
+      </ul>
+
+    <li class="menu_sidebar"><a href="#services"><i class="fa fa-tasks" aria-hidden="true"></i> Program</a></li>
+    <li class="menu_sidebar"><a href="#services"><i class="fa fa-meetup" aria-hidden="true"></i> Meet Me</a></li>
+    <li class="menu_sidebar"><a href="#services"><i class="fa fa-graduation-cap" aria-hidden="true"></i>      Portfolio</a></li>
+    <li class="menu_sidebar"><a href="#services"><i class="fa fa-handshake-o" aria-hidden="true"></i> Our Team</a></li>
+    <li class="menu_sidebar"><a href="#" class="submenu_sidebar submenu2"><i class="fa fa-gift" aria-hidden="true"></i> Resources</a>
+    
+        <ul class="nav-submenu_sidebar">
+            <li class="sidebar_hs-item"><a href="#services">Insights</a></li>
+            <li class="sidebar_hs-item"><a href="#services">Tools & Guides</a></li>
+            <li class="sidebar_hs-item"><a href="#services">Videos</a></li>
+        </ul>
+    
+    </li>
+    <li class="menu_sidebar"><a href="signin.html" target="blank"><i class="fa fa-meetup" aria-hidden="true"></i> Contact</a></li>
+
+</ul>
+</div>
+
+
+<!--  END MOBILE MENU_sidebar  -->
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<script>
+var words = ['Who We Are', 'Who We Are', 'Who We Are',],
+    part,
+    i = 0,
+    offset = 0,
+    len = words.length,
+    forwards = true,
+    skip_count = 0,
+    skip_delay = 15,
+    speed = 70;
+var wordflick = function () {
+  setInterval(function () {
+    if (forwards) {
+      if (offset >= words[i].length) {
+        ++skip_count;
+        if (skip_count == skip_delay) {
+          forwards = false;
+          skip_count = 0;
+        }
+      }
+    }
+    else {
+      if (offset == 0) {
+        forwards = true;
+        i++;
+        offset = 0;
+        if (i >= len) {
+          i = 0;
+        }
+      }
+    }
+    part = words[i].substr(0, offset);
+    if (skip_count == 0) {
+      if (forwards) {
+        offset++;
+      }
+      else {
+        offset--;
+      }
+    }
+    $('.word').text(part);
+  },speed);
+};
+
+$(document).ready(function () {
+  wordflick();
+});
+
+</script>
+
+<script>
+ 
+
+  $(document).ready(function() {
+  $(window).scroll(function() {
+    if ($(document).scrollTop() > 100) {
+      $("body").addClass("test");
+    } else {
+      $("body").removeClass("test");
+    }
+  });
+});
+ 
+</script>
+
+<!-- mobile crosss -->
+<script>
+  function myFunction() {
+var x = document.querySelector(".sidebar_main");
+if (x.style.width === "240px") {
+  x.style.width = "0";
+} else {
+  x.style.width = "240px";
+}
+
+}
+
+</script>
+<script>
+  
+   // search bar
+   $( document ).ready(function() {
+       $('.toggle').click(function(){
+           $('.trigger_btn').toggleClass('active')
+       })
+});
+
+// rotate icon submenu
+$('.menu_sidebar > a').on("click", function (e) {
+        e.preventDefault();
+        $(this).toggleClass('sldm-open');
+        $(this).parent().find('>ul').slideToggle(450);
+    });
+
+   
+
+</script>
+</body>
+</html>
